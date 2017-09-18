@@ -1,2 +1,2 @@
-# huffmanZip
-to create a compression system better than huffman
+# HuffmanZip
+A .zip file coder with huffman coding

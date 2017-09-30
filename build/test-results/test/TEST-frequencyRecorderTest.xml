@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="frequencyRecorderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-09-30T07:49:40" hostname="Sans-MacBook-Pro-2.local" time="0.004">
+<testsuite name="FrequencyRecorderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-09-30T08:23:52" hostname="Sans-MacBook-Pro-2.local" time="0.003">
   <properties/>
-  <testcase name="mapHappyCase" classname="frequencyRecorderTest" time="0.002"/>
-  <testcase name="emptyInput" classname="frequencyRecorderTest" time="0.0"/>
-  <testcase name="nullInput" classname="frequencyRecorderTest" time="0.0"/>
+  <testcase name="mapHappyCase" classname="FrequencyRecorderTest" time="0.001"/>
+  <testcase name="emptyInput" classname="FrequencyRecorderTest" time="0.0"/>
+  <testcase name="nullInput" classname="FrequencyRecorderTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

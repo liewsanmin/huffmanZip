@@ -1,12 +1,12 @@
 import java.io.*;
 import java.util.*;
 
-public class frequencyRecorder{
+public class FrequencyRecorder{
 	String input;
 
-	public frequencyRecorder(){}
+	public FrequencyRecorder(){}
 
-	public frequencyRecorder(String input){
+	public FrequencyRecorder(String input){
 		this.input = input;
 	}
 

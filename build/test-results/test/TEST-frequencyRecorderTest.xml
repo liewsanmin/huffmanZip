@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FrequencyRecorderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-09-30T08:15:17" hostname="Sans-MacBook-Pro-2.local" time="0.003">
+<testsuite name="FrequencyRecorderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-09-30T08:23:52" hostname="Sans-MacBook-Pro-2.local" time="0.003">
   <properties/>
   <testcase name="mapHappyCase" classname="FrequencyRecorderTest" time="0.001"/>
   <testcase name="emptyInput" classname="FrequencyRecorderTest" time="0.0"/>

@@ -16,7 +16,7 @@ public class FrequencyRecorderTest {
     @Test
     public void mapHappyCase() {
         HashMap<Character, Integer> hm = new HashMap<>();
-        frequencyRecorder fR = new frequencyRecorder();
+        FrequencyRecorder fR = new FrequencyRecorder();
         hm = fR.record("aabb");
 
         assertEquals(hm.get('a'), expectedMap.get('a'));
@@ -25,7 +25,7 @@ public class FrequencyRecorderTest {
 
     @Test(expected = RuntimeException.class)
     public void nullInput(){
-        frequencyRecorder fR = new frequencyRecorder();
+        FrequencyRecorder fR = new FrequencyRecorder();
 		HashMap<Character, Integer> nullMap = new HashMap<>();
         nullMap = fR.record(null);
     }
@@ -33,7 +33,7 @@ public class FrequencyRecorderTest {
 
     @Test(expected = RuntimeException.class)
     public void emptyInput(){
-        frequencyRecorder fR = new frequencyRecorder();
+        FrequencyRecorder fR = new FrequencyRecorder();
 		HashMap<Character, Integer> emptyMap = new HashMap<>();
         emptyMap = fR.record("");
     }
